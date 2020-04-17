@@ -10,6 +10,11 @@
         height: 271px;
         background-color: $main-color;
         padding: 51px 68px 59px 68px;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+            cursor: pointer;
+            transition: 0.5s all;
+        }
     }
     &__addr {
         margin-bottom: 36px;

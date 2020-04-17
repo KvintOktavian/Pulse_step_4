@@ -36,7 +36,9 @@
             background-color: $main-color;
             border: none;
             &:hover {
-                box-shadow: $main-color;
+                box-shadow: 3px 3px 20px $main-color;
+                cursor: pointer;
+                transition: 0.5s all;
             }
         }
     }
@@ -56,6 +58,11 @@
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
+        &:hover {
+            box-shadow: 3px 3px 20px #6b6b6b;
+            cursor: pointer;
+            transition: 0.5s all;
+        }
         &__img {
             display: block;
             margin: 0 auto;
