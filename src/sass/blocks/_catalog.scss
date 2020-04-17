@@ -24,16 +24,20 @@
         cursor: pointer;
         transition: 0.5s all;
         &:hover {
-            box-shadow: 3px 3px 20px $main-color;
+            box-shadow: 3px 3px 20px #6b6b6b;
             border: none;
         }
         div {
             transform: skewX(25deg);
         }
         &_active {
+            cursor: pointer;
             color: #fff;
             background-color: $main-color;
             border: none;
+            &:hover {
+                box-shadow: $main-color;
+            }
         }
     }
     &__content {
